@@ -8,7 +8,7 @@ const Product = ({ product, getProducts }) => {
   const deleteProduct = async (id) => {
     const result = await Swal.fire({
       title: "Do you want to delete this product?",
-      text: "You won't be able to revert this product!",
+      //text: "You won't be able to revert this product!",
       icon: "warning",
       showCancelButton: true,
       confirmButtonColor: "#4D52E8",
